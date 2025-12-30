@@ -1,5 +1,5 @@
 #!/bin/bash
-# UnixNodes Advanced MOTD Installer
+# CottonCloud Advanced MOTD Installer
 
 echo "🔧 Installing Custom MOTD..."
 
@@ -53,11 +53,10 @@ printf "  ${YELLOW}IP Address   :${RESET} %s\n" "$IP"
 printf "  ${YELLOW}Uptime       :${RESET} %s\n\n" "$UPTIME"
 
 echo -e "${CYAN}Need help? Support is always available: officialaaditya19@gmail.com${RESET}"
-echo -e "Website: ${BLUE}${RESET}"
 echo -e "${GREEN}Quality Wise — No Compromise 😄${RESET}"
 EOF
 
-chmod +x /etc/update-motd.d/00-unixnodes
+chmod +x /etc/update-motd.d/00-cottoncloud
 
-echo "🎉 UnixNodes MOTD Installed Successfully!"
+echo "🎉 CottonCloud MOTD Installed Successfully!"
 echo "➡ Reconnect SSH to see the new MOTD."
